@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-http://cmacrowther.netlify.com/* http://www.cmacrowther.net/:splat 301!
