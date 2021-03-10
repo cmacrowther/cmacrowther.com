@@ -9,6 +9,9 @@
   .first-line {
     font-size: 3.65em !important;
   }
+  .second-line {
+    font-size: 1.75em !important;
+  }
   .project-btn {
     display: none !important;
   }
