@@ -136,7 +136,7 @@ a.item {
 #menu {
   background: transparent;
   position: relative;
-  z-index: 30;
+  z-index: 35;
 }
 
 #menu .item {
