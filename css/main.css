@@ -10,7 +10,7 @@
     font-size: 3.65em !important;
   }
   .second-line {
-    font-size: 1.75em !important;
+    font-size: 1.95em !important;
   }
   .project-btn {
     display: none !important;
@@ -391,6 +391,7 @@ a.item {
 
 .swiper-container {
   width: 100%;
+  z-index: 30 !important;
 }
 
 .swiper-slide {
@@ -427,7 +428,7 @@ a.item {
   transition: 300ms opacity;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  z-index: 10;
+  z-index: 30;
   bottom: 75px !important;
 }
 
