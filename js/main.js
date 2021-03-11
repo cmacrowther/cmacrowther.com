@@ -121,7 +121,6 @@ function showSection(sectionP) {
     });
 
     swiper.on('slideChangeTransitionStart', function () {
-      console.log("Started");
       if (projects_typed_1 != null) projects_typed_1.destroy();
       if (projects_typed_2 != null) projects_typed_2.destroy();
       if (projects_typed_3 != null) projects_typed_3.destroy();
@@ -181,19 +180,19 @@ function toggleMobileMenu(thisP) {
 
 function applyColorsToTypedSpans() {
   $.each(home_typed_content, function (index, value) {
-    home_typed_content[index] = value.replaceAll("<span>", "<span style=\"color:" + randomColor() + "\">");
+    home_typed_content[index] = value.replace(/<span>/g, "<span style=\"color:" + randomColor() + "\">");
   });
   $.each(contact_typed_content, function (index, value) {
-    contact_typed_content[index] = value.replaceAll("<span>", "<span style=\"color:" + randomColor() + "\">");
+    contact_typed_content[index] = value.replace(/<span>/g, "<span style=\"color:" + randomColor() + "\">");
   });
   $.each(projects_typed_content_1, function (index, value) {
-    projects_typed_content_1[index] = value.replaceAll("<span>", "<span style=\"color:" + randomColor() + "\">");
+    projects_typed_content_1[index] = value.replace(/<span>/g, "<span style=\"color:" + randomColor() + "\">");
   });
   $.each(projects_typed_content_2, function (index, value) {
-    projects_typed_content_2[index] = value.replaceAll("<span>", "<span style=\"color:" + randomColor() + "\">");
+    projects_typed_content_2[index] = value.replace(/<span>/g, "<span style=\"color:" + randomColor() + "\">");
   });
   $.each(projects_typed_content_3, function (index, value) {
-    projects_typed_content_3[index] = value.replaceAll("<span>", "<span style=\"color:" + randomColor() + "\">");
+    projects_typed_content_3[index] = value.replace(/<span>/g, "<span style=\"color:" + randomColor() + "\">");
   });
 }
 
