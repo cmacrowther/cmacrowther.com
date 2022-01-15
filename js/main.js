@@ -7,7 +7,7 @@ var home_typed_content = ['I\'m a UI/UX focused web developer from <span>Prince 
   'Currently writing enterprise-level software in <span>Java/Struts 2.</span>',
   'University of Prince Edward Island alumni holding a <span>B.Sc. in Computer Science.</span>'
 ];
-var contact_typed_content = ['Shoot me an email! I always take interest in new projects. My email is <a href="#">colin@craw.ca</a>'];
+var contact_typed_content = ['Shoot me an email! I always take interest in new projects. My email is <a href="#">colin@craw.ca</a>.'];
 var projects_typed_content_1 = ['<a href="https://timeshifts.netlify.com/">TimeShifts</a> is a <span>web-application</span> that generates work schedules taking into account employee preferences.'];
 var projects_typed_content_2 = ['<a href="https://squawkbox.netlify.com">Squawkbox</a> allows users to turn their device into a communal jukebox by linking their <span>Spotify</span>.'];
 var projects_typed_content_3 = ['<a href="https://defuserband.com/">Defuser</a> is a website I threw together for my band leveraging <span>Jekyll</span> and <span>ForestryCMS</span>.'];
