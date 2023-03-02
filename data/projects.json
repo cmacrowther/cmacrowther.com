@@ -32,7 +32,7 @@
     {
       "name": "SongwriterJS",
       "id": "6wur3q8yt",
-      "sContent": "<p><a href=\"\" title=\"\">SongwriterJS</a> is a static-site template that serves as a personal portfolio of a musician's songwriting credits and collaborations.</p>",
+      "sContent": "<p><strong>SongwriterJS</strong> is a Gatsby/React static-site template that serves as a personal portfolio of a musician's songwriting credits and collaborations.</p>",
       "projectLink": "https://gitlab.com/cmacrowther/songwriter",
       "deployLink": "https://songwriter.cmacrowther.com/"
     },
