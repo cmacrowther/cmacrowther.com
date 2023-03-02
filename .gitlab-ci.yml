@@ -1,0 +1,38 @@
+default:
+  image: node:latest
+
+variables:
+  VERCEL_ORG_ID: $VERCEL_ORG_ID
+
+.base_rules: &base_rules
+  only:
+    - master
+
+stages:
+  - install
+  - build
+  - deploy
+Install:
+  stage: install
+  needs: []
+  script:
+    - yarn install
+Build:
+  stage: build
+  needs: []
+  script:
+    - next build
+  cache:
+    paths:
+      - .next/
+Deploy:
+  stage: deploy
+  environment:
+    name: production
+  variables:
+    VERCEL_PROJECT_ID: $VERCEL_PROJECT_ID
+  script:
+    - npm i -g vercel
+    - vercel --confirm -t $VERCEL_TOKEN --prod
+  only:
+    - master
