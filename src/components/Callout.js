@@ -36,9 +36,9 @@ class Callout extends React.Component {
               {typeof this.slide_content !== 'undefined' ? (
                 <Typed
                   strings={this.slide_content}
-                  typeSpeed={5}
+                  typeSpeed={1}
                   cursorChar="_"
-                  backDelay={1000}
+                  backDelay={2000}
                   loop={true}
                 />
               ) : (

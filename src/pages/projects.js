@@ -60,12 +60,12 @@ const Projects = ({ jsonFile, title }) => {
             return (
               <SplideSlide key={index}>
                 <div className="project-slide">
-                  <h2 className="first-line animate__animated animate__fadeIn">
+                  <h2 className="first-line projects-title animate__animated animate__fadeIn">
                     {project.name}
                   </h2>
                   <div
                     dangerouslySetInnerHTML={{ __html: project.sContent }}
-                    className="second-line animate__animated animate__fadeIn"
+                    className="second-line projects-desc animate__animated animate__fadeIn"
                   ></div>
                   <div className="project-links animate__animated animate__fadeIn">
                     {project.projectLink ? (
