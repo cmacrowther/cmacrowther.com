@@ -8,7 +8,7 @@ export default function Meta(props) {
         <meta charSet="utf-8" />
         <title>{props.siteTitle}</title>
         <meta name="Description" content={props.description}></meta>
-        <meta name="theme-color" content="#111111"></meta>
+        <meta name="theme-color" content="#000000"></meta>
         <meta
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
