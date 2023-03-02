@@ -1,0 +1,60 @@
+{
+  "fileRelativePath": "data/projects.json",
+  "contact": {
+    "links": [
+      {
+        "name": "GitLab",
+        "id": "d7sdrixe4",
+        "anchor": "https://gitlab.com/cmacrowther",
+        "icon": "fa-gitlab"
+      },
+      {
+        "name": "GitHub",
+        "id": "mezsbn1tx",
+        "anchor": "https://github.com/cmacrowther",
+        "icon": "fa-github"
+      },
+      {
+        "name": "DockerHub",
+        "id": "1wcazxdo4",
+        "anchor": "https://hub.docker.com/u/cmacrowther",
+        "icon": "fa-docker"
+      },
+      {
+        "name": "LinkedIn",
+        "id": "cd4sjhp29",
+        "anchor": "https://www.linkedin.com/in/colincrowther/",
+        "icon": "fa-linkedin"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "SongwriterJS",
+      "id": "6wur3q8yt",
+      "sContent": "<p><a href=\"\" title=\"\">SongwriterJS</a> is a static-site template that serves as a personal portfolio of a musician's songwriting credits and collaborations.</p>",
+      "projectLink": "https://gitlab.com/cmacrowther/songwriter",
+      "deployLink": "https://songwriter.cmacrowther.com/"
+    },
+    {
+      "name": "TimeShifts",
+      "id": "fxv0updq9",
+      "sContent": "<p><a href=\"\" title=\"\">TimeShifts</a> is a web-application that generates work schedules taking into account employee shift-preferences.</p>",
+      "projectLink": "",
+      "deployLink": "https://timeshifts.netlify.com/"
+    },
+    {
+      "name": "SquawkBox",
+      "id": "hklgublpd",
+      "sContent": "<p><a href=\"\" title=\"\">Squawkbox</a> allows users to turn their iOS and Android devices into a communal jukebox by linking a users' Spotify account.</p>",
+      "projectLink": "https://gitlab.com/TimeShifts/squawkbox",
+      "deployLink": "https://squawkbox.netlify.com/"
+    },
+    {
+      "name": "ImpressMe",
+      "id": "wf62m87qt",
+      "sContent": "<p>This is the project that you're currently viewing!</p>",
+      "projectLink": "https://gitlab.com/cmacrowther/cmacrowther.com"
+    }
+  ]
+}

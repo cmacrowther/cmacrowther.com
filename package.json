@@ -1,0 +1,63 @@
+{
+  "name": "cmacrowther.com",
+  "private": true,
+  "description": "Simple project portfolio built with React and TinaCMS.",
+  "license": "MIT",
+  "version": "0.1.0",
+  "author": "@cmacrowther",
+  "scripts": {
+    "dev-next": "next",
+    "dev": "node server.js",
+    "develop": "yarn dev",
+    "build": "next build",
+    "start-next": "next start",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "format": "prettier --write \"{,!(.next)/**/}*.{js, jsx}\"",
+    "export": "next export",
+    "deploy": "yarn build && yarn export"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.21.0",
+    "@splidejs/react-splide": "^0.7.12",
+    "@tinacms/api-git": "^0.39.0",
+    "@tinacms/git-client": "^0.39.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "final-form": "^4.19.1",
+    "glob": "^7.1.6",
+    "gray-matter": "^4.0.2",
+    "jquery": "^3.6.0",
+    "moment": "^2.24.0",
+    "netlify-identity-widget": "^1.9.1",
+    "next": "^10.2.2",
+    "next-tinacms-json": "^0.29.0",
+    "next-tinacms-markdown": "^0.29.0",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^3.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-final-form": "^6.5.9",
+    "react-markdown": "^6.0.2",
+    "react-tinacms-date": "^0.29.0",
+    "react-tinacms-editor": "^0.30.0",
+    "react-tinacms-inline": "^0.29.0",
+    "react-typed": "^1.2.0",
+    "styled-components": "^4.4.1",
+    "three": "^0.68.0",
+    "tinacms": "^0.41.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.37.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "next",
+    "tinacms"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/cmacrowther/cmacrowther-tinacms"
+  }
+}
