@@ -32,28 +32,28 @@
     {
       "name": "SongwriterJS",
       "id": "6wur3q8yt",
-      "sContent": "<p><strong>SongwriterJS</strong> is a Gatsby/React static-site template that serves as a personal portfolio of a musician's songwriting credits and collaborations.</p>",
+      "sContent": "<p><strong>SongwriterJS</strong> is a static-site template that serves as a personal portfolio of a musician's songwriting credits and collaborations.</p>",
       "projectLink": "https://gitlab.com/cmacrowther/songwriter",
       "deployLink": "https://songwriter.cmacrowther.com/"
     },
     {
       "name": "TimeShifts",
       "id": "fxv0updq9",
-      "sContent": "<p><a href=\"\" title=\"\">TimeShifts</a> is a web-application that generates work schedules taking into account employee shift-preferences.</p>",
+      "sContent": "<p><strong>TimeShifts</strong> is a web-application that generates work schedules taking into account employee shift-preferences.</p>",
       "projectLink": "",
       "deployLink": "https://timeshifts.netlify.com/"
     },
     {
       "name": "SquawkBox",
       "id": "hklgublpd",
-      "sContent": "<p><a href=\"\" title=\"\">Squawkbox</a> allows users to turn their iOS and Android devices into a communal jukebox by linking a users' Spotify account.</p>",
+      "sContent": "<p><strong>Squawkbox</strong> allows users to turn their iOS and Android devices into a communal jukebox by linking a users' Spotify account.</p>",
       "projectLink": "https://gitlab.com/TimeShifts/squawkbox",
       "deployLink": "https://squawkbox.netlify.com/"
     },
     {
       "name": "ImpressMe",
       "id": "wf62m87qt",
-      "sContent": "<p><a href=\"\" title=\"\">ImpressMe</a> is the project that you're currently viewing! You can view the source-code using the link below.</p>",
+      "sContent": "<p><strong>ImpressMe</strong> is the project that you're currently viewing. You can view the source-code using the link below.</p>",
       "projectLink": "https://gitlab.com/cmacrowther/cmacrowther.com"
     }
   ]
