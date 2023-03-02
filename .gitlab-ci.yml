@@ -10,21 +10,12 @@ variables:
 
 stages:
   - install
-  - build
   - deploy
 Install:
   stage: install
   needs: []
   script:
     - yarn install
-Build:
-  stage: build
-  needs: []
-  script:
-    - next build
-  cache:
-    paths:
-      - .next/
 Deploy:
   stage: deploy
   environment:
