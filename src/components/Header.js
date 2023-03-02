@@ -1,7 +1,8 @@
-import Link from 'next/link'
 import $ from 'jquery'
+import { useRouter } from 'next/router';
 
 export default function Header(props) {
+  const { asPath } = useRouter();
   if (typeof window !== 'undefined') {
     var $mobileMenu = $('.mobile-menu')
   }
@@ -61,31 +62,35 @@ export default function Header(props) {
                   <a
                     id="home_menu_mobile"
                     href="/"
-                    className="active item animate__animated animate__fadeIn"
+                    className={(asPath == "/" ? "active" : "") + " item animate__animated animate__fadeIn"}
                   >
                     Home
                   </a>
                   <a
                     id="projects_menu_mobile"
                     href="/projects"
-                    className="item animate__animated animate__fadeIn animate__fast"
+                    className={(asPath == "/projects" ? "active" : "") + " item animate__animated animate__fadeIn animate__fast"}
                   >
                     Projects
                   </a>
                   <a
                     id="contact_menu_mobile"
                     href="/contact"
-                    className="item animate__animated animate__fadeIn animate__faster"
+                    className={(asPath == "/contact" ? "active" : "") + " item animate__animated animate__fadeIn animate__faster"}
                   >
                     Contact
                   </a>
-                  <div
-                    id="login"
-                    onClick={props.login}
-                    className="item animate__animated animate__fadeIn animate__fastest"
-                  >
-                    Login
-                  </div>
+                  {
+                    process.env.NODE_ENV !== "production" ? (
+                      <div
+                        id="login"
+                        onClick={props.login}
+                        className="item animate__animated animate__fadeIn animate__fastest"
+                      >
+                        Login
+                      </div>
+                    ) : <></>
+                  }  
                 </div>
               </div>
             </div>

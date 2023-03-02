@@ -219,7 +219,6 @@ a.item {
 #menu .item:hover {
   background-color: transparent;
   color: white !important;
-  font-weight: 600 !important;
 }
 
 #menu .item.active {
