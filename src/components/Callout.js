@@ -36,7 +36,7 @@ class Callout extends React.Component {
                   strings={this.slide_content}
                   typeSpeed={1}
                   cursorChar="_"
-                  backDelay={2000}
+                  backDelay={4000}
                   loop={true}
                 />
               ) : (
