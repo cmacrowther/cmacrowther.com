@@ -32,16 +32,16 @@ export default function Meta(props) {
         />
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={props.siteTitle} />
-        <meta property="og:url" content="/" />
-        <meta property="og:description" content={props.description}></meta>
-        <meta property="og:image" content="static/og-image.png" />
+        <meta property="og:url" content="https://cmacrowther.com/" />
+        <meta property="og:description" content="Software developer from Prince Edward Island, Canada."></meta>
+        <meta property="og:image" content="https://cmacrowther.com/static/og-image.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="/" />
-        <meta property="twitter:url" content="/" />
+        <meta property="twitter:domain" content="https://cmacrowther.com/" />
+        <meta property="twitter:url" content="https://cmacrowther.com/" />
         <meta name="twitter:title" content={props.siteTitle} />
-        <meta name="twitter:description" content={props.description} />
-        <meta name="twitter:image" content="static/og-image.png" />
+        <meta name="twitter:description" content="Software developer from Prince Edward Island, Canada." />
+        <meta name="twitter:image" content="https://cmacrowther.com/static/og-image.png" />
       </Head>
     </>
   )

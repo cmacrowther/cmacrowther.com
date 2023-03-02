@@ -1,8 +1,8 @@
 {
   "fileRelativePath": "data/config.json",
-  "title": "Brevifolia",
-  "description": "Starter blog using Tina CMS with Next.js.",
-  "repositoryUrl": "https://github.com/kendallstrautman/brevifolia-next-tinacms",
+  "title": "cmacrowther.com",
+  "description": "Personal website made using Tina CMS with Next.js.",
+  "repositoryUrl": "https://gitlab.com/cmacrowther/cmacrowther.com",
   "global": {
     "title": "cmacrowther - Colin Crowther"
   },
