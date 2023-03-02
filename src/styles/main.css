@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 480px) {
   .first-line {
-    font-size: 3em !important;
+    font-size: 3.25em !important;
   }
   .circle-icon {
     width: 50px !important;
