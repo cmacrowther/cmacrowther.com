@@ -134,6 +134,8 @@ a.item {
   color: #FFF !important;
   font-size: 4em;
   font-weight: 500 !important;
+  position: relative;
+  z-index: 25;
 }
 
 .first-line p{
