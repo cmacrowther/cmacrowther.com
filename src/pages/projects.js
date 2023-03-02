@@ -63,7 +63,10 @@ const Projects = ({ jsonFile, title }) => {
                   <h2 className="first-line projects-title animate__animated animate__fadeIn">
                     {project.name}
                   </h2>
-                  <div dangerouslySetInnerHTML={{ __html: project.sContent }} className="second-line projects-desc animate__animated animate__fadeIn"></div>
+                  <div dangerouslySetInnerHTML={{ __html: project.sContent.replace(
+                    /<strong>/g,
+                    '<strong style="color:' + randomColor() + '">'
+                  ) }} className="second-line projects-desc animate__animated animate__fadeIn"></div>
                   <div className="project-links animate__animated animate__fadeIn">
                     {project.projectLink ? (
                       <a href={project.projectLink}>
@@ -103,4 +106,22 @@ Projects.getInitialProps = async function() {
     },
     title: config.global.title,
   }
+}
+
+function randomColor() {
+  var colors = [
+    '#c3a9ff',
+    '#f7941d',
+    '#7fc7bb',
+    '#f64c71',
+    '#5bdc92',
+    '#3feee7',
+    '#65fcf0',
+    '#febd41',
+    '#13a76b',
+    '#ffe401',
+    '#5ab8eb',
+  ]
+  var random_color = colors[Math.floor(Math.random() * colors.length)]
+  return random_color
 }
