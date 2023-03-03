@@ -1,6 +1,7 @@
 const glob = require('glob')
 
 module.exports = {
+  basePath: "/absproxy/3000",
   webpack: function(config) {
     config.module.rules.push({
       test: /\.md$/,
