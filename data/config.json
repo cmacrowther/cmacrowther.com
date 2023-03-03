@@ -4,7 +4,9 @@
   "description": "Personal website made using Tina CMS with Next.js.",
   "repositoryUrl": "https://gitlab.com/cmacrowther/cmacrowther.com",
   "global": {
-    "title": "cmacrowther - Colin Crowther"
+    "title": "cmacrowther - Colin Crowther",
+    "repositoryUrl": "https://gitlab.com/cmacrowther/cmacrowther.com",
+    "description": "Colin Crowther is a software developer from Prince Edward Island, Canada"
   },
   "homepage": {
     "homepageTitle": "<p>Hi, my name is <strong>Colin</strong>.</p>",
